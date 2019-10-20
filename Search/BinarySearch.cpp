@@ -42,7 +42,7 @@ int main()
 {
 	int a[] = {-1, 0, 5, 12, 25, 30};
 	int n = sizeof(a)/sizeof(a[0]);
-	int x = 30;
+	int x = 12;
 	int result = binarySearch1(a, n, x);
 	if (result == -1)
 		cout << "Not found " << x;
