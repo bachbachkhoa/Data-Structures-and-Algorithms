@@ -28,7 +28,7 @@ smaller element(smaller than pivot) to left of pivot,
 places all greater element to right of pivot*/
 int partition(int a[], int left, int right)
 {
-	int pivotIndex = (left + right)/2;
+	int pivotIndex = (right - left)/2 + left;
 	swap(&a[pivotIndex], &a[right]);
 	int i = left, j = right - 1;
 	while(true)
