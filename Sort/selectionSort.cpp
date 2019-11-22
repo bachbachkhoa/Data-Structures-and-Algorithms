@@ -34,7 +34,7 @@ void printArr(int a[], int n)
 
 int main()
 {
-	int a[] = {64, 25, 12, 22, 11};
+	int a[] = {41, 23, 74, 11, 65, 58, 94, 36, 99, 87};
 	int n = sizeof(a)/sizeof(a[0]);
 
 	cout << "\nEntered array:";
